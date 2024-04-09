@@ -1,0 +1,193 @@
+body {
+    font-family: "Century Gothic", 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.et-hero-tabs,
+.et-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+   /* background-color: #ffffff;*/
+    background-image: url('gambar6.jpg');
+    background-attachment: fixed;
+    background-size: cover; 
+    text-align: center;
+    padding: 0 1em;
+    h1 {
+        font-size: 2rem;
+        margin: 0;
+        letter-spacing: 1rem;
+    }
+    h3 {
+        font-size: 1rem;
+        letter-spacing: 0.3rem;
+        opacity: 0.6;
+    }
+}
+
+.et-hero-tabs-container {
+    
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    box-shadow: 5 5 20px rgba(0,0,0,0.554);
+    background: #ec8000;
+    z-index: 10;
+    &--top {
+        position: fixed;
+        top: 0;
+    }
+}
+
+.et-hero-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: #000;
+    letter-spacing: 0.1rem;
+    transition: all 0.5s ease;
+    font-size: 0.8rem;
+    &:hover {
+      color:#ff1d1d;
+      background: rgba(10,159,255,0.592);
+      transition: all 0.5s ease;
+    }
+}
+
+.et-hero-tab-slider {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 6px;
+    background: #ffdd1c;
+    transition: left 0.3s ease;
+}
+
+@media (min-width: 800px) {
+  .et-hero-tabs,
+  .et-slide {
+    h1 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+  }
+  .et-hero-tab {
+    font-size: 1rem;
+  }
+}
+
+.typing-container { 
+      tampilan: fleksibel; 
+      justify-content: tengah; 
+      menyelaraskan-item: tengah;
+} 
+.input-cursor { 
+      tampilan: blok sebaris; 
+      lebar: 2 piksel; 
+      tinggi: 42 piksel; 
+      warna latar belakang: putih; 
+      margin-kiri: 8 piksel; 
+}
+
+/* image slider */
+.carousel-item img {
+  transition: opacity 0.5s ease;
+}
+
+.carousel-item img:hover {
+  opacity: 0.8;
+}
+
+/* SOCMED STYLE */
+
+{
+margin: 0;
+padding: 0;
+align-items: center;
+justify-content: center;
+height: 30%; /* ORINGINAL 100% */
+background: #463f2f93;
+}
+.container
+{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 30%;
+}
+.btn
+{
+width: 100px;
+height: 50px;
+background-color: #f8e72500;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 2em;
+margin-right: 1em;
+cursor: pointer;
+transition: all 0.3s;
+border-radius: 10px;
+}
+i.fa
+{
+font-size: 44px;
+}
+#fb
+{
+color: #eeff00;
+text-shadow: 0 0 30px #006fff;
+}
+#ig
+{
+color: #eeff00;
+text-shadow: 0 0 30px #ff5f40;
+}
+#tw
+{
+color: #00acff;
+text-shadow: 0 0 30px #00acff;
+}
+.btn.fb-btn
+{
+box-shadow: 0 20px 20px -17px rgba(0,111,255,0.53);
+}
+.btn.fb-btn:hover
+{
+transform: scale(1.2);
+box-shadow: 0 30px 45px -15px rgba(0,111,255,0.65);
+}
+.btn.ig-btn
+{
+box-shadow: 0 20px 20px -17px rgba(255,16,39,0.5);
+}
+.btn.ig-btn:hover
+{
+transform: scale(1.2);
+box-shadow: 0 30px 45px -15px rgba(255,16,39,0.57);
+}
+.btn.tw-btn
+{
+box-shadow: 0 20px 20px -17px rgba(0,255,255,0.53);
+}
+.btn.tw-btn:hover
+{
+transform: scale(1.2);
+box-shadow: 0 30px 45px -15px rgba(0,111,255,0.6);
+}
+
+/* Gambar style */
+
